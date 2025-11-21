@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    padding: 10px 30px;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e9ee;
+    margin-bottom: 15px;
+}
+
+body{
+    background-color: #f6f6f8;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-text{
+    margin-bottom: 20px;
+}
+
+.description{
+    color: #8f9ebf;
+    margin-top: 10px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.semester{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 30px;
+}
+
+.instruction{
+    color: #8f9ebf;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.course-section{
+    margin-bottom: 40px;
+}
+
+.course-section-heading{
+    display: flex;
+    gap: 6rem;
+    padding: 10px;
+}
+
+#courseNameHeading{
+    width: 60%;
+}
+
+#courseUnitHeading{
+    width: 20%;
+}
+
+.course-section-heading p{
+    font-size: 0.9rem;
+}
+
+.line{
+    border: 1px solid #e6e9ee;
+}
+
+.course-details{
+    display: flex;
+    gap: 5rem;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+#courseName{
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    width: 60%;
+}
+
+#courseUnit, select{
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    width: 20%;
+}
+
+select, #grade{
+    width: 15%;
+}
+
+.delete, #empty{
+    width: auto;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.bottom{
+    width: auto;
+    margin: 0 -3%;
+    border: 1px solid #e6e8ec;
+}
+
+.funcBtn{
+    display: flex;
+    margin: 10px 5px;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add{
+    background-color: #e7eefd;
+    color: #1d62ed;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.calc{
+    background-color: #135bec;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.calc:hover, .add:hover{
+    background-color: #437ff8;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: #c9d9fd;
+    cursor: pointer;
+}
+
+.gpa{
+    color: #00d26a;
+}
+
+.semesterAdd{
+    background-color: #e5e7eb;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
